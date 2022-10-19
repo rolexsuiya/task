@@ -30,7 +30,7 @@
 <body>
 
 
-      <nav class="navbar navbar-expand-lg sticky-top bg-white navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg sticky-top bg-white navbar-light bg-light navcenter">
         <div class="container-fluid">
 
             <a class="navbar-brand" href="#"><img src="images/googlelogo.png" alt="image" /></a>
@@ -87,19 +87,22 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-sm-12 col-xs-12 col-md-9 col-lg-9 col-xl-9">
                         <div class="row">
                             <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 col-xl-4 showhim cardDiv">
                                 <div class="phone">
                                     <img id="pixcel" src="images/phone1.png" alt="image" />
                                 </div>
+                            <div>
                                 <div class="row">
+                                
                                     <div class="col-sm-6">
                                         <p id="left-p">Pixel 5</p>
                                     </div>
                                     <div class="col-sm-6 ok">
                                         <p id="right-p">$ 499</p>
                                     </div>
+                                
                                 </div>
                                 <div class="row">
                                     <div class="col-sm-6 ok">
@@ -125,6 +128,7 @@
                                         data-bs-target="#exampleModal-lg-bill">Buy Now</button>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                             <div class="col-sm-12 col-xs-12 col-md-6 col-lg-4 col-xl-4 showhim cardDiv">
                                 <div class="phone2">
@@ -636,7 +640,8 @@
                                         <div class="col-sm-6"><label id="text-label" for="fname">Name</label>
                                             <input type="text" id="fname" placeholder="Amy jackson" name="fname" /></div>
                                         <div class="col-sm-6"><label id="text-label" for="email">Contact Number</label>
-                                            <input type="tel" id="fname" name="phone" placeholder="999 999 999" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required></div>
+                                            <input type="tel" id="phone" class="fname" placeholder="999 999 999" name="phone"  maxlength ="6" pattern="[0-9]{3}-[0-9]{3}" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" required></div>
+                                            <!-- <input type="tel" id="phone" name="phone"  pattern="[0-9]{3} [0-9]{3} [0-9]{3}" required> -->
                                         <div class="col-sm-12"><label id="text-label" for="Address">Address</label><br>
                                             <input type="text" id="fname" placeholder="Dubai main road, Dubai cross street" name="fname" /></div>
                                             <div class="col-sm-6">
