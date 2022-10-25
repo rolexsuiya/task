@@ -65,6 +65,8 @@ opacity: 1;
 
 .butnav{
   padding-top: 10px;
+  align-items: start;
+    display: flex;
 }
 
 #subbutton {
@@ -126,6 +128,7 @@ li {
   opacity: 1;
   position: relative;
   text-align: center;
+  
 }
 
 .phone2 {
@@ -148,6 +151,7 @@ li {
 
 #pixcel {
   margin-top: 65px;
+  height: 129px;
 }
 
 #left-p {
@@ -258,7 +262,7 @@ li {
   letter-spacing: 0px;
   color: #ccd6da;
   opacity: 1;
-  margin: 40px;
+  margin: 35px 0px;
 }
 
 .foot {
@@ -300,7 +304,7 @@ li {
 }
 
 .header {
-  margin: 30px 30px;
+  margin: 18px 18px;
 }
 h4 {
   text-align: left;
@@ -313,10 +317,18 @@ h4 {
   float: right;
 }
 
+.leftmargin{
+  margin-right: 10px;
+}
+
 #icon5 {
   text-align: start;
   margin-top: 110px;
   margin-bottom: 40px;
+}
+
+.phonecenter{
+  text-align: center;
 }
 
 #icon4 {
@@ -330,7 +342,7 @@ h4 {
 
 .midscol {
   
-  height: 275px;
+  height: 250px;
   
   overflow-y: scroll; /* Add the ability to scroll */
 }
@@ -347,7 +359,7 @@ h4 {
 }
 
 .headpic{
-  margin-bottom: 60px;
+  margin-bottom: 45px;
 
 }
 
@@ -416,6 +428,7 @@ margin-bottom: 25px;
   letter-spacing: 0px;
   color: #4E6E7E;
   opacity: 1;
+  padding-right: 23px;
  
   
 }
@@ -562,7 +575,7 @@ opacity: 1;
   padding: 20px 10px 30px 10px;
   border: 1px solid #E9ECEF;
   border-radius: 5px;
-
+  margin-bottom: 13px;
 }
 
 .middiv{
@@ -685,7 +698,7 @@ outline:none;
 text-align: left;
 font: normal normal normal 12px/15px Montserrat;
 letter-spacing: 0px;
-color: #B3C1C8;
+/* color: #B3C1C8; */
 opacity: 1;
 }
 #fname:hover{
@@ -706,7 +719,7 @@ outline:none;
 text-align: left;
 font: normal normal normal 12px/15px Montserrat;
 letter-spacing: 0px;
-color: #B3C1C8;
+/* color: #B3C1C8; */
 opacity: 1;
 }
 .fname:hover{
@@ -721,7 +734,16 @@ opacity: 1;
   border-color: #219EBC;
   background-color: #f8fbfc;
 }
-
+/* 
+#dummy{
+  color: #B3C1C8;
+} */
+select {
+  color: #B3C1C8;
+}
+option:not(:first-of-type) {
+  color: black;
+}
 #city{
   width: 100%;
   height: 40px;
@@ -734,7 +756,7 @@ outline:none;
 text-align: left;
 font: normal normal normal 12px/15px Montserrat;
 letter-spacing: 0px;
-color: #B3C1C8;
+/* color: #B3C1C8; */
 opacity: 1;
 }
 
@@ -759,6 +781,94 @@ opacity: 1;
   nav{
     text-align: center !important;
   }
+
+  nav {
+    padding: 10px 10px 10px 10px !important;
+}
+
+#btnn{
+
+  width: 90%;
+}
+
+.care {
+  float: left !important; 
+  font: normal normal normal 12px/15px Montserrat;
+  letter-spacing: 0px;
+  color: #b3c1c8;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+#btn {
+  background: #219ebc 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  border-style: none;
+  padding: 15px 10px;
+  text-align: left;
+  font: normal normal 600 14px/18px Montserrat;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 44%;
+  margin-top: -68px;
+  float: right;
+  text-align: center;
+  opacity: 1;
+}
+.navleft {
+  margin-left: 0;
+}
+
+.conts {
+ 
+  margin-bottom: 10px;
+}
+
+.left-side {
+  margin-bottom: 10px;}
+
+
+
+.right-side {
+  margin-bottom: 10px;
+}
+
+
+.cont {
+  margin-bottom: 20px;
+}
+
+.color{
+  padding-right: 3px;
+ 
+  
+}
+.middivleft {
+  padding: 20px 0px 10px 0px;
+  
+}
+
+#text-midbold {
+  font: normal normal 600 10px/15px Montserrat;
+  line-height: 45px;
+}
+
+#text-mid {
+  font: normal normal normal 10px/15px Montserrat;
+  line-height: 45px;
+}
+
+#pixtext {
+  font: normal normal bold 13px/19px Montserrat;
+ 
+}
+
+#text1 {
+  font: normal normal normal 10px/15px Montserrat;
+ 
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -769,13 +879,41 @@ opacity: 1;
 #btn {
   width: 50%;}
 
+  #btn {
+    width: 89%;
 }
+  nav {
+    padding: 10px 10px 10px 10px !important;
+  }
+
+  #subbutton {
+    padding: 10px 24px;
+    background-color: white;
+    border: 1.5px solid #219ebc;
+    border-radius: 4px !important;
+    font: normal normal 600 14px/18px Montserrat;
+    opacity: 1;
+    color: #219ebc;
+}
+.navleft {
+  margin-left: 0;
+}
+
+}
+
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .main{
     margin: 23px 20px 0 20px;
 }
+nav {
+  padding: 10px 20px 10px 20px !important;
+}
 
+.navleft {
+  margin-left: 0;
+}
 
 }
 
@@ -797,12 +935,45 @@ opacity: 1;
     margin-left: 25%;
 }
   
+.phone {
+  height: 250px;
+  background: #e3f7f4 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  
+}
+
+.phone2 {
+  height: 250px;
+  background: #ebf5f3 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+.phone3 {
+  height: 250px;
+  background: #f7f7ed 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+}
+
+
    #btn {
     width: 92%;}
    #top-p {
     width: 150px;
   }
    
+  nav {
+    padding: 10px 0px 10px 0px !important;
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -818,6 +989,9 @@ opacity: 1;
     margin-left: 34%;
 }
   
+nav {
+  padding: 10px 50px 10px 50px !important;
+}
 
   
 }
