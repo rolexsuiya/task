@@ -1,8 +1,28 @@
+const edit = document.getElementById("edit");
+const edit2 = document.getElementById("edit-color");
+const save = document.getElementById("add-block");
+const save2 = document.getElementById("add");
+
+edit2.addEventListener("click", function () {
+  if (edit) {
+    edit.style.display = "none";
+    save.style.display = "flex";
+  }
+});
+
+save2.addEventListener("click", function () {
+  if (save) {
+    save.style.display = "none";
+    edit.style.display = "block";
+  }
+});
+
+
+
 const togglePassword = document.getElementById('eyeToggle')
 const password = document.getElementById('password')
 const toggleRetypePassword = document.getElementById('Toggle')
 const reTypePassword = document.getElementById('reTypePassword')
-
 
 
 
@@ -50,4 +70,5 @@ function togglePasswordsucess (){
 
 togglePassword.addEventListener('click',togglePasswordField)
 toggleRetypePassword.addEventListener('click',togglePasswordsucess)
+
 

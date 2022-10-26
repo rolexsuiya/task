@@ -484,7 +484,7 @@
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
-                <div class="modal-content">
+                <div class="modal-content model-scroll">
                     <div class="header">
 
                         <div class="d-flex bd-highlight">
@@ -587,7 +587,7 @@
         <div class="modal fade" id="exampleModal-lg" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-lg">
-                <div class="modal-content">
+                <div class="modal-content model-scroll">
                     <div class="header">
 
                         <div class="d-flex bd-highlight">
@@ -720,7 +720,7 @@
         <div class="modal fade" id="exampleModal-lg-bill" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-lg">
-                <div class="modal-content">
+                <div class="modal-content model-scroll">
                     <div class="header">
                         
                         <div class="d-flex bd-highlight">
@@ -783,12 +783,25 @@
 
 
                                 </div>
-                                <div class="row middivbottom">
+                                
+                                <div id="edit" class="showup" >
+                                    <div class="d-flex saveadd" >
+                                        <div class="flex-fill"><h6 id="shivaji-color">Shivaji Ganesan</h6>
+                                            <p id="text">+91 9999 999 999</p></div>
+                                        <div class="flex-fill"><p id="text">Chevalier shivaji ganeshan road, <br>Chennai, India - 600074</p></div>
+                                        <div class="flex-fill"><p id="edit-color">Edit</p></div>
+    
+                                       
+                                    </div>
+                                </div>
+                                <div class="row middivbottom" id="add-block">
 
                                     
                                     <div class="d-flex bd-highlight">
                                             <div class="flex-fill bd-highlight"><p id="text">ADD ADDRESS</p></div>
-                                            <div class="flex-fill bd-highlight"><p id="textcolor">SAVE ADDRESS</p></div>
+                                            <div class="flex-fill bd-highlight"><p id="add" class="textcolor">SAVE ADDRESS</p></div>
+
+                                            
                                             
                                     </div>
 
@@ -846,6 +859,9 @@
                                 </div>
 
                             </div>
+
+
+                              
 
                             <div class="col-sm-12 col-xs-12 col-md-12 col-lg-4 col-xl-4">
                                 
@@ -932,7 +948,7 @@
 
     </div>
 
-
+    <script src="./script.js"></script>
 </body>
 
 </html>
